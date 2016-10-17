@@ -1,0 +1,32 @@
+{
+  "name": "nudnik",
+  "version": "1.0.0",
+  "description": "Using ExpressJS",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeny/nudnik.git"
+  },
+  "keywords": [
+    "Madeny",
+    "ExpressJS",
+    "Express",
+    "Nodejs",
+    "Nudnik"
+  ],
+  "author": "Madeny Diawara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madeny/nudnik/issues"
+  },
+  "homepage": "https://github.com/madeny/nudnik#readme"
+}
