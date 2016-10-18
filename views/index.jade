@@ -1,1 +1,47 @@
-h1= balance
+doctype html
+html.no-js(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700', rel='stylesheet', type='text/css')
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
+    link(rel='stylesheet', href='css/reset.css')
+    // CSS reset
+    link(rel='stylesheet', href='css/style.css')
+    // Resource style
+    script(src='js/modernizr.js')
+    // Modernizr
+    title 3D Rotating Navigation | CodyHouse
+  body
+    header.cd-header
+      a.cd-logo(href='#0')
+        img(src='img/cd-logo.svg', alt='Logo')
+      a.cd-3d-nav-trigger(href='#0')
+        | Menu
+        span
+    // .cd-header
+
+    main
+      h1   Credit
+      h1=  balance
+      // all your content here
+    nav.cd-3d-nav-container
+      ul.cd-3d-nav
+        li.cd-selected
+          a(href='#') Dashboard
+        li
+          a(href='#') Projects
+        li
+          a(href='#') Images
+        li
+          a(href='#') Settings
+        li
+          a(href='#') New
+      // .cd-3d-nav
+      span.cd-marker.color-1
+    // .cd-3d-nav-container
+    script(src='js/jquery-2.1.1.js')
+    script(src='js/main.js')
+    // Resource jQuery
+
+   

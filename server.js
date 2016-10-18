@@ -1,6 +1,6 @@
 var express = require('express'),
 	app 	= express();
-	messagebird = require('messagebird')('live_FyFTz0kVi5aVUJaagMA0vBGmB');
+	messagebird = require('messagebird')('test_jfX7IFLu07gSea3nBwlkDMJvZ');
 
 app.set('view engine', 'jade');
 app.use(express.static(__dirname + '/public'));
@@ -13,7 +13,10 @@ app.use(express.static(__dirname + '/public'));
   } else
        // res.render({balance:response.amount, type:response.type});
        res.render('index', {
-       	balance:response.amount, type:response.type
+       	// type:response.type
+       	balance:response.amount,
+       	type:response.type
+       	
        });
     });   
  });
