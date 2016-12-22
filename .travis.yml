@@ -1,12 +1,13 @@
 language: node_js
 node_js:
+  - "6"
+  - "6.1"
+  - "5.11"
+  - "0.6"
+  - "iojs"
 
-  - "6.2"
-sudo: false
-cache:
-  directories:
-    - node_modules
-before_install:
+script:
+  - npm test
   # Remove all non-test dependencies
   # - "npm rm --save-dev connect-redis"
 
