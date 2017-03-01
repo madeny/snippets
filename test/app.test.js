@@ -1,10 +1,10 @@
-var request = require('supertest'),
-	app = require('../server');
+var request = require('supertest');
+var app = require('../server');
 
-describe('title 3D Rotating Navigation | CodyHouse', function() {
-	it('Credit', function(done) {
-		request(app).get("/")
-		.expect(200)
-		.expect(/Credit/, done);
-	});
+describe('GET /', function(){
+  it('should repsond with 200', function(done){
+      request(app.app)
+      .get('/')
+      .expect(200, done.fail);
+  });
 });

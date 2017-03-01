@@ -17,3 +17,5 @@ Testing Express app.
 --------------------------------------
 
 npm install --dev-save mocha chai supertest
+---------------------------------------
+Runing the test| ./node_modules/.bin/mocha
