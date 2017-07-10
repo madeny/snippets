@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+array_values(array_sort(${1:\$array}, function(${2:\$key}, ${3:\$value}) {
+    return ${3:\$value}['${4:name}'];
+}));
+]]></content>
+    <tabTrigger>Helper::array_sort</tabTrigger>
+    <scope>source.php</scope>
+    <description>Sort the array using the given callback.</description>
+</snippet>

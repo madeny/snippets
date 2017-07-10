@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@if (${1:\$condition})
+	${2}
+@else
+	${3}
+@endif
+]]></content>
+    <tabTrigger>Blade::ifelse</tabTrigger>
+    <scope>text.html</scope>
+    <description>Blade @ifelse</description>
+</snippet>

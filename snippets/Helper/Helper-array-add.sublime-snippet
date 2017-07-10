@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+array_add(${1:\$array}, ${2:'key'}, ${3:'value'});
+]]></content>
+    <tabTrigger>Helper::array_add</tabTrigger>
+    <scope>source.php</scope>
+    <description>Add an element to an array using "dot" notation if it doesn't exist.</description>
+</snippet>

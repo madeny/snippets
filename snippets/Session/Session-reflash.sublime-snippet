@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$request->session()->reflash();
+]]></content>
+    <tabTrigger>Session::reflash</tabTrigger>
+    <scope>source.php</scope>
+    <description>Reflash the Current Flash Data</description>
+</snippet>

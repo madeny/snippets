@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+if (Schema::hasColumn('${1:table}', '${2:column}')) {
+    ${3://}
+}
+]]></content>
+    <tabTrigger>Schema::hasColumn</tabTrigger>
+    <scope>source.php</scope>
+    <description>Check for existence of column(s)</description>
+</snippet>

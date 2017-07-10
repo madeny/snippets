@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$request->session()->regenerate();
+]]></content>
+    <tabTrigger>Session::regenerate</tabTrigger>
+    <scope>source.php</scope>
+    <description>Regenerate the Session ID</description>
+</snippet>

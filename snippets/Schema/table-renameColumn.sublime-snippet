@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$table->renameColumn('${1:from}', '${2:to}');
+]]></content>
+    <tabTrigger>Column::renameColumn</tabTrigger>
+    <scope>source.php</scope>
+    <description>Rename a column</description>
+</snippet>

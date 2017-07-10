@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@while (${1:\$condition})
+	${2}
+@endwhile
+]]></content>
+    <tabTrigger>Blade::while</tabTrigger>
+    <scope>text.html</scope>
+    <description>Blade @while</description>
+</snippet>

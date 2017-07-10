@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$table->jsonb('${1:column}')${2:->nullable()};
+]]></content>
+    <tabTrigger>Column::jsonb</tabTrigger>
+    <scope>source.php</scope>
+    <description>JSON equivalent to the table</description>
+</snippet>
