@@ -1,6 +1,6 @@
 # Simple Sublime Text 3
 
-*Create your own sublime Text 3 snippets.* 
+*Create your own sublime Text 3 snippets.*  ### Future to add auto push to github so that you can have your snippets on diference computer or if you reinstall your computer ###
 
 ![Alt text](https://github.com/madeny/snippets/blob/master/assets/cnv.gif?sanitize=true)
 
