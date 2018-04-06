@@ -1,7 +1,7 @@
 # Simple Sublime Text 3
 ---
 
-Create your own snippets and organise theme.
+Create your own snippets sublime Text 3 snippets.
 
 ![Alt text](https://github.com/madeny/snippets/blob/master/assets/cnv.gif?sanitize=true)
 
