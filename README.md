@@ -1,1 +1,1 @@
-# sublimeText-laravel5-snippets
+# Simple Sublime Text 3
