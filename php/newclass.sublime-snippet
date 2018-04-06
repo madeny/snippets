@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+class myClassName  extends ClassName
+{
+    public function somefunc(${1:}){
+
+    }
+}
+]]></content>
+    <tabTrigger>nc</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create new class from this</description>
+</snippet>
