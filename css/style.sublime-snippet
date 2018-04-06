@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<style>
+    ${1:}
+</style> ]]></content>
+    <tabTrigger>st</tabTrigger>
+    <scope>text.html</scope>
+    <description>Assert Equals call</description>
+</snippet>

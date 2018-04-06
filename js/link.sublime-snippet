@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<script src="${1:}"></script> ]]></content>
+    <content><![CDATA[<script src="assets/js/${1:}"></script> ]]></content>
     <tabTrigger>jlink</tabTrigger>
     <scope>text.html</scope>
     <description>Assert Equals call</description>
