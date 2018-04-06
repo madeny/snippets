@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+array_pluck(${1:\$array}, ${2:'value'});
+]]></content>
+    <tabTrigger>Helper::array_pluck</tabTrigger>
+    <scope>source.php</scope>
+    <description>Pluck an array of values from an array.</description>
+</snippet>

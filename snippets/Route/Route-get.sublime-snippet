@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Route::get('${1:users/{id\}}', function(${2:$id}) {
+    ${3://}
+});
+]]></content>
+    <tabTrigger>Route::get</tabTrigger>
+    <scope>source.php</scope>
+    <description>Basic Get Route.</description>
+</snippet>

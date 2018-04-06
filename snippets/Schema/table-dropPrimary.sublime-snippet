@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$table->dropPrimary('${1:users_id_primary}');
+]]></content>
+    <tabTrigger>Column::dropPrimary</tabTrigger>
+    <scope>source.php</scope>
+    <description>Drop a Primary key</description>
+</snippet>

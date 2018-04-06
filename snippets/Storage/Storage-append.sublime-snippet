@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Storage::append(${1:filePath}, ${2:Appended Text});
+]]></content>
+	<tabTrigger>Storage::append</tabTrigger>
+	<scope>source.php</scope>
+	<description>Insert content at the end of a file</description>
+</snippet>

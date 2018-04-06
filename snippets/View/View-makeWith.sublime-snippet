@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+view(${1:'view.name'})->with('${2:key}', ${3:\$value});
+]]></content>
+    <tabTrigger>View::makeWith</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create a View, Pass Data using with()</description>
+</snippet>

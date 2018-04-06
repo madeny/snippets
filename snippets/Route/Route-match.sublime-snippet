@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Route::match([${1:'get', 'post'}], '${2:/user/profile}', function() {
+    ${3://}
+});
+]]></content>
+    <tabTrigger>Route::match</tabTrigger>
+    <scope>source.php</scope>
+    <description>Register a new route with the given verbs.</description>
+</snippet>
