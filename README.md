@@ -11,8 +11,11 @@ Create your own snippets and organise theme.
 create file with .sublime-snippet extension and copy and paste one of the example to edit it for you need`
 
 #### for php:
+
 `If you want to use "$" for variables make sure to escape it with '\'`
-For instance: 
+
+For instance:
+
 `<snippet>
     <content><![CDATA[\$this->assertEquals (${1:});]]></content>
     <tabTrigger>equal</tabTrigger>
