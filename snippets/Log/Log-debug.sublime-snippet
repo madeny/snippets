@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Log::debug('${1:message}');
-]]></content>
-    <tabTrigger>Log::debug</tabTrigger>
-    <scope>source.php</scope>
-    <description>Log a debug message to the logs.</description>
-</snippet>

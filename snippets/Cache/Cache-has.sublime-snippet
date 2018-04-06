@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Cache::has('${1:key}')
-]]></content>
-    <tabTrigger>Cache::has</tabTrigger>
-    <scope>source.php</scope>
-    <description>Check for existence in Cache</description>
-</snippet>
