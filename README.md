@@ -5,7 +5,9 @@ Create your own snippets and organise theme.
 
 ![Alt text](https://github.com/madeny/snippets/blob/master/assets/cnv.gif?sanitize=true)
 
---------------------------------------
+---
+
+```
 To use it just clone the repository or download the zip file and unzip it and place it in the package/user folder. see the picture below for how to get package folder on mac.
 create file with .sublime-snippet extension and copy and paste one of the example to edit it for you need`
 ```
