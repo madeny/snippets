@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Route::currentRouteAction();
-]]></content>
-    <tabTrigger>Route::currentRouteAction</tabTrigger>
-    <scope>source.php</scope>
-    <description>Get the current route name.</description>
-</snippet>

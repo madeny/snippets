@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-return response()->download(${1:\$pathToFile}${2:[, \$name]}, ${3:[, \$headers]});
-]]></content>
-    <tabTrigger>Response::download</tabTrigger>
-    <scope>source.php</scope>
-    <description>Create a File Download Response</description>
-</snippet>

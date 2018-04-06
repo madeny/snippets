@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{{-- ${1:some hidden comment} --}}
-]]></content>
-    <tabTrigger>{{--</tabTrigger>
-    <scope>text.html</scope>
-    <description>Blade comments</description>
-</snippet>

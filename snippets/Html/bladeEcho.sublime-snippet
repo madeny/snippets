@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[{{ \$${1:var}->${2: } }}]]></content>
+    <tabTrigger>ble</tabTrigger>
+    <scope>text.html</scope>
+    <description>Assert Equals call</description>
+</snippet>
+
+
+
+
