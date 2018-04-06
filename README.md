@@ -1,4 +1,4 @@
-# Simple Sublime Text 3
+# Simple Sublime Text 3 portable snippets.
 
 *Create your own sublime Text 3 snippets.*  
 ### Future to add auto push to github so that you can have your snippets on diference computer or if you reinstall your computer.
